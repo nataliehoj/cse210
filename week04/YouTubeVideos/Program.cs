@@ -29,11 +29,13 @@ class Program
 
         foreach (Video video in videos)
         {
-            Console.WriteLine($"{video.GetVidName()}\n");
+            Console.WriteLine($"{video.GetVidName()}");
             Console.WriteLine($"{video.GetVidAuthor()}");
             Console.WriteLine($"{video.GetVidLength()}\n");
             Console.WriteLine("------Comments------\n");
             video.DisplayAll();
+            Console.WriteLine();
+            Console.WriteLine();
 
         }
 
